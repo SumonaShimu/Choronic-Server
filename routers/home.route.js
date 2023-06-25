@@ -3,7 +3,8 @@ const router = express.Router();
 // console.log(router);
 
 router.get("/", (req, res) => {
-    res.send({ message: "home route" });
+    res.sendFile(__dirname + "/../views/index.html");
+    // res.status(200).json({ message: "home route" });
 });
 
 module.exports = router;
