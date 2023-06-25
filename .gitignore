@@ -1,0 +1,8 @@
+node_modules
+public/uploads
+package-lock.json
+.vscode
+.env
+.env.local
+.env.development
+.env.production
